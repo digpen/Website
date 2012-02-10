@@ -1,0 +1,284 @@
+
+/* element styles */
+
+html {
+	overflow: scroll;
+}
+
+body{
+	margin: 0;
+	padding: 0; 
+	background: url(../images/bg.jpg) repeat-x #d4d6d5;
+	font-size: 90%;
+}	 
+
+div {
+	font-family: arial, verdana, sans-serif;
+	font-size: 100%;
+	color: #301907;
+}
+
+p, h2, h3, h4, h5, h6, blockquote, dl, .content {
+	padding-left: 15px;
+}
+
+p {
+	font-family: arial, verdana, sans-serif;
+	font-size: 100%;
+	color: #301907;
+	padding: 0 15px 10px 15px;
+	line-height: 120%;
+}
+
+li {
+	font-size: 100%;
+	color: #301907;
+}
+
+td {
+	font-size: 100%;
+	color: #301907;
+	vertical-align: top;
+}
+
+img {
+	border: 0;
+}
+
+a {
+	font-size: 100%;
+	color: #f0602c;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: arial, verdana, sans-serif;
+	font-size: 140%;	
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-family: arial, verdana, sans-serif;
+	font-size: 130%;	
+	color: #202020;
+	margin: 0;
+	padding: 11px 0 18px 50px;
+}
+
+.box h2 {
+	padding-left: 15px; /* no icon */
+}
+
+form {
+	margin: 0;
+}
+
+textarea {
+	font-family: arial, verdana, sans-serif;
+	font-size: 100%;
+}
+
+/* page element styles */ 
+ 
+#top_bar {
+	background: url(../images/top-bar.jpg) repeat-x top center;
+	height: 108px;
+}
+
+#top_bar_inner {
+	position: relative;
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	width: 980px;
+	padding: 0;
+}
+
+#logo {
+	float: left;
+	width: 227px;
+	margin: 20px 0 0 10px;
+}
+
+#tagline {
+	float: right;
+	width: 460px;
+	margin: 20px 0 0 0;
+	padding-top: 10px; 
+}
+
+#main {
+	position: relative;
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	width: 980px;
+	padding: 0;
+}
+
+.box {
+	float: left;
+	background: url(../images/single-col-bg.png) repeat-x top left;
+	margin: 20px 20px 0 0;
+}
+
+.col1 {
+	width: 226px;
+}
+
+.col2 {
+	width: 472px;
+}
+
+.col3 {
+	width: 718px;
+}
+
+.col4 {
+	width: 964px;
+	margin-right: 0;
+}
+
+.last {
+	margin-right:0;
+}
+
+.clear {
+	clear:left;
+}
+
+#twitter_events {
+	float: left;
+	width: 472px;
+	background: url(../images/two-col-bg.png) no-repeat top left;
+	margin: 20px 20px 0 0;
+}
+
+#twitter {
+	float: left;
+	width: 226px;
+	margin: 0 20px 0 0;
+}
+
+#twitter h2 {
+	background: url(../images/twitter.png) no-repeat top left;
+}
+
+#twitter p {
+	font-size: 85%;	
+}
+
+#events {
+	float: left;
+	width: 226px;
+}
+
+#events h2 {
+	background: url(../images/events.png) no-repeat top left;
+}
+
+#past_events {
+	display: none;	
+}
+
+#about {
+	float: left;
+	width: 472px;
+	margin: 20px 0 0 0;
+	background: url(../images/single-col-bg.png) repeat-x top left;
+}
+
+#about h2 {
+	background: url(../images/about.png) no-repeat top left;
+}
+
+#newsletter_likes {
+	float: left;
+	width: 472px;
+	background: url(../images/two-col-bg.png) no-repeat top left;
+	margin: 20px 0 0;
+}
+
+#newsletter {
+	float: left;
+	width: 226px;
+	margin: 0 20px 0 0;
+}
+
+#newsletter h2 {
+	background: url(../images/newsletter.png) no-repeat top left;
+}
+
+#email_address {
+	width: 140px;
+	border: 1px #ccc solid;
+}
+
+#signup {
+	float: right;
+}
+
+#likes {
+	float: left;
+	width: 226px;
+}
+
+#likes h2 {
+	background: url(../images/likes.png) no-repeat top left;
+}
+
+#contact {
+	float: left;
+	width: 964px;
+	margin: 20px 0 20px 0;
+	background: url(../images/single-col-bg.png) repeat-x top left;
+}
+
+#contact h2 {
+	background: url(../images/contact.png) no-repeat top left;
+}
+
+.contact_female {
+	float: left;
+	width: 166px;
+	margin: 0 20px 0 0;
+	background: url(../images/contact-female.png) no-repeat top left;
+	padding: 10px 0 10px 60px;
+}
+
+.contact_male {
+	float: left;
+	width: 166px;
+	margin: 0 20px 0 0;
+	background: url(../images/contact-male.png) no-repeat top left;
+	padding: 10px 0 10px 60px;
+}
+
+/* general styles */
+
+.error {
+	color: #c00;
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.hide {
+	display: none;
+}
